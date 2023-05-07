@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link ref="icon" href="img/Novum Futurum.PNG">
+    <link rel="icon" type="image/jpg" href="img/Novum Futurum.PNG">
+    <title>Precios</title>
+</head>
+
+<body>
+    <h1>N.F EXPRESS</h1>
+    <nav>
+        <ul>
+            <button id="button">
+                <li><a class="texto" href="expressNF.html">INICIO</a></li>
+            </button>
+            <button id="button">
+                <li> <a class="texto" href="aboutUs.html">¿QUIENES SOMOS?</a></li>
+            </button>
+            <button id="button">
+                <li> <a class="texto" href="ourExpress.html">NUESTRO EXPRESO</a></li>
+            </button>
+            <button id="button">
+                <li> <a class="texto" href="prices.html">PRECIOS</a></li>
+            </button>
+            <button id="button">
+                <li> <a class="texto" href="contactUs.html">CONTACTANOS</a></li>
+            </button>
+            </ul>
+            
+            
+            <p align="center"> <img src="img/Novum Futurum.PNG" alt="novum futurum" width="300" height="200">
+            <div class="separator">
+                <div class="separator__content">...</div>
+                <div class="separator__separator">
+                    <header>
+                        <h2>"PRECIOS"</h2>
+                        <h3>El precio actual es 120.000$</h3>
+                        <label>¿Cuantas personas viajaran?</label>
+                    <input id="num1"><br>  
+                    <label>¿Cual es el precio actual?</label>
+                        <input id="num2">  
+                        <button type="button" onclick="myFunction()">TOTAL</button>  
+                        <p id="sumando"></p>  
+                        <script>  
+                        function myFunction() {  
+                          var x,y,suma,text;  
+                          x = document.getElementById("num1").value; 
+                          y = document.getElementById("num2").value;  
+                          if (isNaN(x) || isNaN(y)) {  
+                            text = "Escriba numeros válidos";  
+                          } else {  
+                            suma=parseFloat(x)*parseFloat(y);  
+                            text= suma;  
+                          }  
+                          document.getElementById("sumando").innerHTML = text;  
+                        }  
+                        </script>  
+                        </body>  
+                        </html>  

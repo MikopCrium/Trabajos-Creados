@@ -1,0 +1,217 @@
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+
+body {
+    background: linear-gradient(100deg, rgb(7, 0, 104), rgb(20, 0, 199), rgb(0, 0, 0));
+    background-size: 2000px;
+
+
+
+}
+
+h1 {
+    background-image: url(img/Fondo\ de\ texto.gif);
+    color: blue;
+    font-size: 400%
+}
+
+h3 {
+    color: rgb(248, 203, 0);
+    font-size: 300%;
+}
+
+p2 {
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+}
+
+div2 {
+    background-color: #fff;
+}
+
+
+
+.curved-background__curved {
+    background-color: #d1d5db;
+
+
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+
+    height: 50%;
+    width: 100%;
+}
+
+#button {
+    background-color: rgb(44, 44, 44);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 15px;
+    border-top-left-radius: 200px 200px;
+    border-top-right-radius: 200px 200px;
+    border-bottom-left-radius: 200px 200px;
+}
+
+nav {
+    background-size: cover;
+    background-color: black;
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+    height: 100px;
+    width: 1350px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+    font-size: 18px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: rgb(3, 18, 231);
+    font-size: 20px;
+    border-top-left-radius: 200px 200px;
+    border-top-right-radius: 200px 200px;
+    border-bottom-left-radius: 200px 200px;
+}
+
+
+.texto {
+    color: white;
+}
+
+aside {
+
+    text-align: right;
+}
+
+p {
+    font-size: 25px;
+
+}
+
+h2 {
+    background-image: url(img/Fondo\ de\ texto.gif);
+    color: rgb(255, 255, 255)
+}
+
+a {
+    color: beige;
+}
+
+#backgroundButton {
+    background-color: blue;
+}
+
+
+
+#hipervinculo {
+    color: gray;
+    font-size: 15px;
+}
+
+footer {
+    background-color: black;
+    height: 60px;
+}
+
+.separator {
+    /* Content is centered horizontally */
+    align-items: center;
+    display: flex;
+
+    /* Used to set the position of text */
+    position: relative;
+}
+
+.separator__content {
+    background-image: url(img/Fondo\ de\ texto.gif);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 0 0.25rem;
+
+    width: 60%;
+}
+
+.separator__separator {
+    border-bottom: 1px solid #000000;
+    height: 1px;
+    width: 100%;
+}
+
+.slider {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 50%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
